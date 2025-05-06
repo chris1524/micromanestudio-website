@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>micromanestudio</title>
+  <style>
+    /* Reset + Base */
+    * {margin:0;padding:0;box-sizing:border-box}
+    body {font-family:sans-serif;color:#222;background:#f2f2f2;line-height:1.4}
+    a {color:#0066cc;text-decoration:none}
+    a:hover {text-decoration:underline}
+    img {max-width:100%;height:auto;display:block}
+    .wrap {max-width:600px;margin:2rem auto;padding:0 1rem}
+
+    /* Header */
+    header {text-align:center;padding:1rem 0}
+    header h1 {font-size:2rem;text-transform:uppercase;letter-spacing:.1rem}
+
+    /* Intro */
+    .intro {text-align:center;margin-bottom:2rem}
+    .intro h2 {font-size:1.25rem;margin-bottom:.5rem}
+    .intro p {margin-bottom:1rem;color:#555}
+    .intro .ctas a {margin:0 .5rem;font-weight:500}
+
+    /* Gallery */
+    .grid {display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem}
+    .grid-item {background:#fff;padding:.5rem;border-radius:.25rem;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+
+    /* Form */
+    form {background:#fff;padding:1rem;border-radius:.25rem;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+    form label {display:block;font-size:.875rem;margin-bottom:.25rem;color:#444}
+    form input, form textarea {width:100%;padding:.5rem;border:1px solid #ccc;border-radius:.25rem;margin-bottom:1rem}
+    form button {width:100%;padding:.75rem;border:none;border-radius:.25rem;background:#222;color:#fff;font-size:1rem;cursor:pointer}
+    form button:hover {background:#444}
+
+    /* Footer */
+    footer {text-align:center;padding:1rem 0;color:#888;font-size:.75rem;margin-top:2rem}
+  </style>
+</head>
+<body>
+
+  <div class="wrap">
+    <header>
+      <h1>micromanestudio</h1>
+    </header>
+
+    <section class="intro">
+      <h2>Precision. Transformation. Confidence.</h2>
+      <p>Scalp Micropigmentation | GTA</p>
+      <div class="ctas">
+        <a href="#">Free Consultation</a>|
+        <a href="#">Let's Chat</a>|
+        <a href="#">DM Today</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="grid-item">
+        <img src="service-image1.jpg" alt="Hairline Restoration">
+        <p>Hairline Restoration</p>
+      </div>
+      <div class="grid-item">
+        <img src="service-image2.jpg" alt="Full Scalp Treatment">
+        <p>Full Scalp Treatment</p>
+      </div>
+      <div class="grid-item">
+        <img src="service-image3.jpg" alt="Confidence Boost">
+        <p>Confidence Boost</p>
+      </div>
+      <div class="grid-item">
+        <img src="service-image4.jpg" alt="Before & After">
+        <p>Before & After</p>
+      </div>
+    </section>
+
+    <section>
+      <form action="https://formsubmit.co/sawmanick@yahoo.ca" method="POST">
+        <!-- Honeypot for spam prevention -->
+        <input type="text" name="_honey" style="display:none">
+
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Redirect after submission (optional) -->
+        <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+        <label for="name">Full Name</label>
+        <input id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="msg">Message or Request</label>
+        <textarea id="msg" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      &copy; 2025 micromanestudio
+    </footer>
+  </div>
+
+</body>
+</html>
